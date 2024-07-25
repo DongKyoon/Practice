@@ -140,7 +140,7 @@ const GameMain = () => {
         <h2> Score : {score} </h2>
         <span className='BtnSpan'><button onClick={()=>startNewGame(4,3)}>New Game - easy</button></span>
         <span className='BtnSpan'><button onClick={()=>startNewGame(5,4)}>New Game - normal</button></span>
-        <span className='BtnSpan'><button onClick={()=>startNewGame(5,8)}>New Game - hard</button></span>
+        <span className='BtnSpan'><button onClick={()=>startNewGame(6,7)}>New Game - hard</button></span>
         <MyWatch operaion = {op} handler={startHandler}/>
 
         <br></br>
