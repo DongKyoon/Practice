@@ -101,7 +101,7 @@ const GameMain = () => {
     ref.current = ref.current + 1;
     console.log(`setup 함수 실행(${ref.current})`);
     if (ref.current === 1) {
-      initializeTile(H_TILES, V_TILES);
+      initializeTile(5, 4);
     }
   }, []);
   // 최초 자동 실행

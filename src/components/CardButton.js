@@ -1,17 +1,5 @@
-import { useReducer } from "react";
 import styles from "./CardButton.module.css"
 
-/*
-const checkButton = (state, action) => {
-    console.log("Action.title = " + action.title + ", Action.prevNo = " +action.prevNo + ", Action.prevId = " +action.prevId+ ", Action.btnId = " +action.btnId);
-    if ( action.title === action.prevNo) {
-        if (action.prevId !== action.btnId) {
-            return {btnstate : "unveiled"};  
-        }
-    }     
-    return {btnstate : state.btnstate};
-}
-*/
 
 const CardButton = (props) => {
     //const [state, setState] = {"veiled"};
