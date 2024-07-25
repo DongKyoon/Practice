@@ -1,0 +1,84 @@
+.unveiled_button {
+    width: 15vmin;
+    height: 15vmin;
+    position: 'relative';
+    background: #E0FEA2;
+    outline-width: 2px;
+    outline-color: #fb0303;
+    border-radius: 8px;
+    border: none;
+    font-size: 7vmin;
+    color: #05522D;
+    text-align: center;
+}
+.unveiled_button:hover,
+.unveiled_button:focus{
+    background: #F0FFB2;
+    width: 15vmin;
+    height: 15vmin;
+}
+.veiled {
+    width: 15vmin;
+    height: 15vmin;
+    position: 'relative';
+    background: #888888;
+    outline-width: 2px;
+    outline-color: #fb0303;
+    border-radius: 8px;
+    border: none;
+    font-size: 24pt;
+    color: #888888;
+    text-align: center;
+}
+.veiled:hover{
+    background: #ffffBB;
+    outline-width: 2px;
+    outline-color: #fb0303;
+    color: #ffffBB;
+    width: 15vmin;
+    height: 15vmin;
+}
+.veiled:focus{
+    background: #111111;
+    outline-width: 2px;
+    outline-color: #fb0303;
+    color: #FFFFFF;
+    width: 15vmin;
+    height: 15vmin;
+}
+
+/*
+.button_veiled {
+    width: 64px;
+    height: 64px;
+    position: 'relative';
+    background: #888888;
+    border-radius: 8px;
+    border: none;
+    font-size: 24pt;
+    color: #888888;
+    text-align: center;
+}
+.button_hover {
+    width: 66px;
+    height: 66px;
+    position: 'relative';
+    background: #EEEEEE;
+    border-radius: 8px;
+    border: none;
+    font-size: 24pt;
+    color: #EEEEEE;
+    text-align: center;
+}
+.button_click{
+    width: 62px;
+    height: 62px;
+    position: 'relative';
+    background: #adff08;
+    border-radius: 8px;
+    border: none;
+    font-size: 24pt;
+    color: #E0FEA2;
+    text-align: center;
+}
+*/
